@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "plugins": ["import", "prettier"],
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "require-atomic-updates": "off",
+    "comma-dangle": ["error", "never"]
+  }
+}
